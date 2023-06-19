@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    General-->
+    <dimen name="text_size_all_xsmall">12sp</dimen>
+    <dimen name="text_size_all_small">14sp</dimen>
+    <dimen name="text_size_all_regular">16sp</dimen>
+    <dimen name="text_size_all_large">18sp</dimen>
+    <dimen name="text_size_all_xlarge">22sp</dimen>
+    <dimen name="text_size_all_xxlarge">26sp</dimen>
+    <dimen name="text_size_all_xxxlarge">30sp</dimen>
+
+    <dimen name="size_all_xxxsmall">2dp</dimen>
+    <dimen name="size_all_xxsmall">4dp</dimen>
+    <dimen name="size_all_xsmall">8dp</dimen>
+    <dimen name="size_all_small">10dp</dimen>
+    <dimen name="size_all_medium">14dp</dimen>
+    <dimen name="size_all_regular">16dp</dimen>
+    <dimen name="size_all_large">18dp</dimen>
+    <dimen name="size_all_xlarge">20dp</dimen>
+    <dimen name="size_all_xxlarge">24dp</dimen>
+    <dimen name="size_all_xxxlarge">28dp</dimen>
+    <dimen name="size_all_xxxxlarge">32dp</dimen>
+    <dimen name="size_all_xxxxxlarge">64dp</dimen>
+
+    <dimen name="text_size_heading_1">36sp</dimen>
+    <dimen name="text_size_heading_2">28sp</dimen>
+    <dimen name="text_size_heading_3">24sp</dimen>
+    <dimen name="text_size_heading_4">20sp</dimen>
+    <dimen name="text_size_larger_cta">16sp</dimen>
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="contact"
+            type="com.lloydheyrosa.domain.model.Contact" />
+
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_rounded_top_corners_10"
+        android:padding="@dimen/size_all_large">
+
+        <ImageView
+            android:id="@+id/image_view_contact_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            app:imageUrl="@{contact.imageUrl}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/text_view_contact_full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_all_regular"
+            android:text="@{contact.fullName}"
+            android:textSize="@dimen/text_size_heading_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_view_contact_avatar"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/text_view_contact_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_all_xsmall"
+            android:text="@{contact.email}"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_all_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_contact_full_name"
+            tools:text="loremipsum@dolor.com" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
